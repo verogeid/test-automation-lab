@@ -57,6 +57,7 @@ Este portfolio está en construcción activa y representa un entorno realista de
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
 
 [Volver al inicio](#indice)
+
 ---
 
 <a id="flujo-logica-contenedores"></a>
