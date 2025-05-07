@@ -22,6 +22,15 @@
 ![lighthouse-logo]
 ---
 
+## Índice
+
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-completo-de-la-lógica-de-seguridad-y-comunicación-entre-contenedores)
+- [Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-y-escalabilidad-en-pruebas-no-funcionales)
+- [Estado actual](#estado-actual)
+
+---
+
 ## Descripción del Proyecto
 
 Este portfolio está en construcción activa y representa un entorno realista de trabajo como **QA Automation Engineer**. Incluye:
@@ -43,6 +52,8 @@ Este portfolio está en construcción activa y representa un entorno realista de
   - *Asperger*
 
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
+
+[Volver al inicio](#índice)
 
 ---
 
@@ -73,6 +84,25 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 7. **Desencriptación por Playwright:**
    - Playwright desencripta el JSON usando su **palabra clave** e **IV**, quedando listo para usar los resultados en sus pruebas.
 
+[Volver al inicio](#índice)
+
+---
+
+## Modularidad y Escalabilidad en Pruebas No Funcionales
+
+La combinación de *Playwright* con la lógica *Python* modular permite que el sistema funcione prácticamente con cualquier endpoint, alternando entre idiomas y modos de visión si están disponibles.  
+La configuración, definida en un archivo JSON, indica qué datos relevantes buscar y puede ampliarse fácilmente para cubrir otros endpoints, aumentando así su escalabilidad.  
+Además, se puede ajustar el grado de tolerancia a fallos no funcionales de accesibilidad, es decir, qué porcentaje de degradación de la experiencia de usuario se considera aceptable.  
+No es lo mismo una persona con cataratas incipientes que alguien casi ciego por la misma dolencia.
+
+Este enfoque permite simular la interacción de un usuario real con la aplicación, centrándose en la percepción condicionada por su deficiencia visual o cognitiva.  
+Aunque no sustituye la experiencia real de usuario, establece una base científica que va más allá del cumplimiento de las *WCAG*, facilitando que la tecnología sea más inclusiva.  
+Es clave recordar que, si bien existen más de 300 millones de personas con daltonismo, el número de personas con presbicia —la mayoría de mayores de 40-45 años— es aún mayor, especialmente considerando la pirámide poblacional invertida.
+
+Finalmente, esta manera de trabajar permitirá que automáticamente puedan visitarse todos los endpoints de un dominio realizando pruebas para cada uno y generando informes tanto por sección como globales, lo que servirá como base para la primera versión de mi algoritmo de accesibilidad personalizado.
+
+[Volver al inicio](#índice)
+
 ---
 
 [![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
@@ -80,6 +110,8 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 ## Estado actual
 
 Este repositorio forma parte de mi portfolio técnico y está en fase de construcción. Ciertas partes, como la lógica visual en Python, están protegidas para evitar usos indebidos.
+
+[Volver al inicio](#índice)
 
 <!-- Workspace -->
 [En-Construccion]: https://img.shields.io/badge/status-en%20construcci%C3%B3n-orange
@@ -116,5 +148,3 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 [WCAG-logo]: https://img.shields.io/badge/WCAG-005a9c?style=for-the-badge&logo=w3c&logoColor=white
 [linkedin-logo]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-link]: https://www.linkedin.com/in/diego-gonzalez-fernandez/
-
-<!-- more badges here https://github.com/Ileriayo/markdown-badges -->
