@@ -15,10 +15,11 @@
 ![playwright-logo]
 ![typescript-logo]
 ![python-logo]
+![JMeter-logo]
 ![JWT-logo]
+![JWE-logo]
 ![WCAG-logo]
 ![axe-core-logo]
-![K6-logo]
 ![lighthouse-logo]
 ---
 
@@ -143,6 +144,7 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 
 <!-- Performance -->
 [K6-logo]: https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white
+[JMeter-logo]: https://img.shields.io/badge/JMeter-D24939?style=for-the-badge&logo=apache-jmeter&logoColor=white
 [axe-core-logo]: https://img.shields.io/badge/axe--core-darkgreen?style=for-the-badge&logo=axe&logoColor=white
 [lighthouse-logo]: https://img.shields.io/badge/Lighthouse-orange?style=for-the-badge&logo=lighthouse&logoColor=white
 
@@ -151,6 +153,8 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 
 <!-- Others -->
 [JWT-logo]: https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white
+[JWE-logo]: https://img.shields.io/badge/JWE-Encrypted-blue?style=for-the-badge
+
 [WCAG-logo]: https://img.shields.io/badge/WCAG-005a9c?style=for-the-badge&logo=w3c&logoColor=white
 [linkedin-logo]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-link]: https://www.linkedin.com/in/diego-gonzalez-fernandez/
