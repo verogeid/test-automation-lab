@@ -153,7 +153,7 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 
 <!-- Others -->
 [JWT-logo]: https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white
-[JWE-logo]: https://img.shields.io/badge/JWE-Encrypted-blue?style=for-the-badge
+[JWE-logo]: https://img.shields.io/badge/JWE-blue?style=for-the-badge
 
 [WCAG-logo]: https://img.shields.io/badge/WCAG-005a9c?style=for-the-badge&logo=w3c&logoColor=white
 [linkedin-logo]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white
