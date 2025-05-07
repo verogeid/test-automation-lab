@@ -1,7 +1,7 @@
 ![Status][En-Construccion]
 ---
 
-<h1 align="center">⚙️ Test Automation Lab</h1>
+<h1 align="center">⚙️ Test Automation Lab ⚙️</h1>
 
 ![vscode-logo]
 ![node-logo]
@@ -112,6 +112,8 @@ Finalmente, esta manera de trabajar permitirá que automáticamente puedan visit
 
 <a id="estado-actual"></a>
 ## ⏳ Estado actual
+
+![Status][En-Construccion]
 
 Este repositorio forma parte de mi portfolio técnico y está en fase de construcción. Ciertas partes, como la lógica visual en Python, están protegidas para evitar usos indebidos.
 
