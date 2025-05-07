@@ -1,7 +1,7 @@
 ![Status][En-Construccion]
 ---
 
-<h1 align="center">Test Automation Lab</h1>
+<h1 align="center">⚙️ Test Automation Lab</h1>
 
 ![vscode-logo]
 ![node-logo]
@@ -25,16 +25,16 @@
 <a name="indice"></a>
 [![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
 
-## Índice
+## 🧭 Índice
 
-- [Descripción del Proyecto](#descripcion-del-proyecto)
-- [Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
-- [Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
-- [Estado actual](#estado-actual)
+- [📘 Descripción del Proyecto](#descripcion-del-proyecto)
+- [🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
+- [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
+- [⏳ Estado actual](#estado-actual)
 ---
 
 <a id="descripcion-del-proyecto"></a>
-## Descripción del Proyecto
+## 📘 Descripción del Proyecto
 
 Este portfolio está en construcción activa y representa un entorno realista de trabajo como **QA Automation Engineer**. Incluye:
 
@@ -61,7 +61,7 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 ---
 
 <a id="flujo-logica-contenedores"></a>
-## Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores
+## 🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores
 
 1. **Generación del Token e IV en Playwright:**
    - **Playwright** facilita un **token** y un **IV** único a **Docker Auth**. El **token** identifica al usuario y el **IV** se utiliza para la seguridad de la sesión.
@@ -93,7 +93,7 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 ---
 
 <a id="modularidad-escalabilidad"></a>
-## Modularidad y Escalabilidad en Pruebas No Funcionales
+## 📈 Modularidad y Escalabilidad en Pruebas No Funcionales
 
 La combinación de *Playwright* con la lógica *Python* modular permite que el sistema funcione prácticamente con cualquier endpoint, alternando entre idiomas y modos de visión si están disponibles.  
 La configuración, definida en un archivo JSON, indica qué datos relevantes buscar y puede ampliarse fácilmente para cubrir otros endpoints, aumentando así su escalabilidad.  
@@ -110,7 +110,8 @@ Finalmente, esta manera de trabajar permitirá que automáticamente puedan visit
 
 ---
 
-## Estado actual
+<a id="estado-actual"></a>
+## ⏳ Estado actual
 
 Este repositorio forma parte de mi portfolio técnico y está en fase de construcción. Ciertas partes, como la lógica visual en Python, están protegidas para evitar usos indebidos.
 
