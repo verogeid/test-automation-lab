@@ -22,15 +22,18 @@
 ![lighthouse-logo]
 ---
 
+<a name="indice"></a>
+[![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
+
 ## Índice
 
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-completo-de-la-lógica-de-seguridad-y-comunicación-entre-contenedores)
-- [Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-y-escalabilidad-en-pruebas-no-funcionales)
+- [Descripción del Proyecto](#descripcion-del-proyecto)
+- [Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
+- [Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
 - [Estado actual](#estado-actual)
-
 ---
 
+<a id="descripcion-del-proyecto"></a>
 ## Descripción del Proyecto
 
 Este portfolio está en construcción activa y representa un entorno realista de trabajo como **QA Automation Engineer**. Incluye:
@@ -53,10 +56,10 @@ Este portfolio está en construcción activa y representa un entorno realista de
 
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
 
-[Volver al inicio](#índice)
-
+[Volver al inicio](#indice)
 ---
 
+<a id="flujo-logica-contenedores"></a>
 ## Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores
 
 1. **Generación del Token e IV en Playwright:**
@@ -84,10 +87,11 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 7. **Desencriptación por Playwright:**
    - Playwright desencripta el JSON usando su **palabra clave** e **IV**, quedando listo para usar los resultados en sus pruebas.
 
-[Volver al inicio](#índice)
+[Volver al inicio](#indice)
 
 ---
 
+<a id="modularidad-escalabilidad"></a>
 ## Modularidad y Escalabilidad en Pruebas No Funcionales
 
 La combinación de *Playwright* con la lógica *Python* modular permite que el sistema funcione prácticamente con cualquier endpoint, alternando entre idiomas y modos de visión si están disponibles.  
@@ -101,17 +105,15 @@ Es clave recordar que, si bien existen más de 300 millones de personas con dalt
 
 Finalmente, esta manera de trabajar permitirá que automáticamente puedan visitarse todos los endpoints de un dominio realizando pruebas para cada uno y generando informes tanto por sección como globales, lo que servirá como base para la primera versión de mi algoritmo de accesibilidad personalizado.
 
-[Volver al inicio](#índice)
+[Volver al inicio](#indice)
 
 ---
-
-[![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
 
 ## Estado actual
 
 Este repositorio forma parte de mi portfolio técnico y está en fase de construcción. Ciertas partes, como la lógica visual en Python, están protegidas para evitar usos indebidos.
 
-[Volver al inicio](#índice)
+[Volver al inicio](#indice)
 
 <!-- Workspace -->
 [En-Construccion]: https://img.shields.io/badge/status-en%20construcci%C3%B3n-orange
