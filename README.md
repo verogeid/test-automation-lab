@@ -30,7 +30,7 @@ Este portfolio está en construcción activa y representa un entorno realista de
 - Ejecución de pruebas Funcionales en **Cypress** (entorno QA) y No Funcionales en **Playwright** (entorno Producción), ambas usando **TypeScript**.
 - *Módulo de selectores* en TypeScript compartido entre Cypress y Playwright para optimizar el mantenimiento de tests automatizados.
 - Lógica avanzada desarrollada en **Python**, encapsulada en un contenedor **Docker** protegido por *JWT rotativos* y validación de IP.
-- Pruebas de carga y estrés con **k6**.
+- Pruebas de carga y estrés con **JMeter**.
 - Validaciones de accesibilidad con **axe-core** y simulaciones avanzadas en **Python** para:
   - *Protanopía* (ceguera al rojo)
   - *Deuteranopía* (ceguera al verde)
@@ -43,6 +43,35 @@ Este portfolio está en construcción activa y representa un entorno realista de
   - *Asperger*
 
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
+
+---
+
+## Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores
+
+1. **Generación del Token e IV en Playwright:**
+   - **Playwright** facilita un **token** y un **IV** único a **Docker Auth**. El **token** identifica al usuario y el **IV** se utiliza para la seguridad de la sesión.
+
+2. **Validación del Rango de IPs en Docker Auth:**
+   - **Docker Auth** recibe el **token** y el **IV** proporcionados por **Playwright**.
+   - Consulta una base de datos encriptada con el **token** para obtener:
+     - La **palabra clave** asociada al token.
+     - El **rango de IPs** permitido.
+   - Valida si la solicitud proviene de una IP dentro del rango permitido; si no, rechaza la solicitud.
+
+3. **Generación del JWE Rotativo:**
+   - Si la IP es válida, usa la **palabra clave** y el **IV** para generar un **JWE rotativo**, garantizando la seguridad en las futuras comunicaciones.
+
+4. **Consulta API desde Playwright a Lógica Python:**
+   - Con el **JWE rotativo**, Playwright consulta al contenedor Docker que ejecuta la lógica Python para analizar deficiencias visuales y cognitivas.
+
+5. **Comunicaciones Seguras entre Contenedores:**
+   - El contenedor Python usa una **palabra clave compartida** para comunicarse de forma segura con Docker Auth, obtener datos y desencriptar la información de Playwright.
+
+6. **Desencriptación y Análisis de Resultados:**
+   - El contenedor Python desencripta los datos usando la **palabra clave** e **IV**, analiza los resultados y los devuelve a Playwright en JSON cifrado.
+
+7. **Desencriptación por Playwright:**
+   - Playwright desencripta el JSON usando su **palabra clave** e **IV**, quedando listo para usar los resultados en sus pruebas.
 
 ---
 
