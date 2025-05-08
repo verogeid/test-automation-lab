@@ -45,7 +45,7 @@ Este portfolio está en construcción activa y representa un entorno realista de
 - Un *endpoint funcional* desarrollado con **React + Vite**, desplegado automáticamente a entornos QA y Producción mediante workflow.
 - Ejecución de pruebas Funcionales en **Cypress** (entorno QA) y No Funcionales en **Playwright** (entorno Producción), ambas usando **TypeScript**.
 - *Módulo de selectores* en TypeScript compartido entre Cypress y Playwright para optimizar el mantenimiento de tests automatizados.
-- Lógica avanzada desarrollada en **Python**, encapsulada en un contenedor **Docker** protegido por *JWT rotativos* y validación de IP.
+- Lógica avanzada desarrollada en **Python**, encapsulada en un contenedor **Docker** protegido por *JWE rotativos* y validación de IP.
 - Pruebas de carga y estrés con **JMeter**.
 - Validaciones de accesibilidad con **axe-core** y simulaciones avanzadas en **Python** para:
   - *Protanopía* (ceguera al rojo)
@@ -140,18 +140,19 @@ Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se r
 Este proyecto realiza pruebas avanzadas de accesibilidad, yendo más allá de *WCAG*: **analiza cómo percibe el usuario real el endpoint** bajo distintas condiciones visuales y cognitivas.
 
 ### ¿Qué simulamos?
+- *Daltonismo* (Protanopía, Deuteranopía y Tritanopía)
 - *Presbicia*
-- *Daltonismo*
-- *Cataratas*
 - *Glaucoma*
+- *Cataratas*
 - *Dislexia*
-- *TDAH*
+- *TDAH activo y pasivo*
+- *Asperger*
 
 ### ¿Cómo funciona?
 El sistema evalúa el comportamiento del endpoint en los siguientes modos de visualización:
 - Modo **claro**
 - Modo **oscuro**
-- Modo **monocromo** (alto contraste en móviles)
+- Modo **nocturno/monocromo** (alto contraste en móviles)
 
 Cada uno de estos escenarios se analiza de forma independiente para identificar problemas de percepción y comprensión, simulando cómo se vería el endpoint para personas con deficiencias visuales o cognitivas. Si el endpoint no cuenta con los *CSS* necesarios para adaptarse a estos modos, la prueba **fallará** directamente al no haber contemplado este problema de accesibilidad.
 
