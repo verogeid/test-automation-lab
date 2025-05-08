@@ -1,4 +1,7 @@
+<a id="indice"></a>
 ![Status][En-Construccion]
+
+[![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
 ---
 
 <h1 align="center">⚙️ Test Automation Lab ⚙️</h1>
@@ -22,9 +25,6 @@
 ![axe-core-logo]
 ![lighthouse-logo]
 ---
-
-<a id="indice"></a>
-[![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
 
 ## 🧭 Índice
 
