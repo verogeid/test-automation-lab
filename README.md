@@ -194,7 +194,7 @@ Se verifica que el tiempo de carga de la página sea adecuado, asegurando que la
 ### 5. Pruebas WCAG Estándar
 Se llevan a cabo pruebas de conformidad con las **Web Content Accessibility Guidelines (WCAG)** para asegurar que el sitio o aplicación cumpla con los estándares de accesibilidad web, ofreciendo una experiencia adecuada para usuarios con discapacidades. **Estas pruebas no dependen del idioma, ya que las WCAG son estándares universales.**
 
-[Volver al inicio](#inicio)
+[Volver al inicio](#indice)
 
 --
 
