@@ -220,6 +220,7 @@ Se llevan a cabo pruebas de conformidad con las **Web Content Accessibility Guid
 ## ⚡ Paralelización de pruebas
 
 Se paralelizan pruebas en *Playwright* para optimizar tiempos: algunas corren en el *Docker Python*, mientras otras se ejecutan directamente desde el framework.  
+Se está estudiando incorporar un *Docker Python* independiente para analizar *responsive zoom*, ya que implica dividir dinámicamente el contenido visual (por ejemplo, en pestañas) según el nivel de zoom del usuario. Esto busca reducir la sobrecarga cognitiva, especialmente en personas con ELA u otras condiciones similares.  
 El paralelismo se documentará mediante *gráfos de Gantt* para facilitar el mantenimiento.
 
 **Candidatas a paralelización:**  
@@ -227,7 +228,8 @@ El paralelismo se documentará mediante *gráfos de Gantt* para facilitar el man
 - Navegabilidad mediante teclado  
 - Textos/elements cortados o solapados  
 - Accesibilidad WCAG  
-- Validación general de interfaz
+- Validación general de interfaz  
+- Análisis de *responsive zoom*
 
 **No paralelizar:**  
 - Pruebas de velocidad de carga  
