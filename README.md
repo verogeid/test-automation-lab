@@ -172,7 +172,7 @@ Si el endpoint carece de soporte para los modos claro/oscuro/monocromo, se gener
 ### Valor diferencial
 Este enfoque permite detectar problemas reales que impactan a usuarios con necesidades específicas, incluso en proyectos que ya cumplen *WCAG*, ofreciendo una evaluación más precisa de la accesibilidad y una experiencia inclusiva para todos los usuarios.
 
-[Volver al inicio](#indice)
+[Volver al inicio](#inicio)
 
 ---
 
