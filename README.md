@@ -58,6 +58,7 @@ Este portfolio está en construcción activa y representa un entorno realista de
   - *Dislexia*
   - *TDAH activo y pasivo*
   - *Asperger*
+  - *ELA* (en estudio)
 
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
 
@@ -164,6 +165,7 @@ Este proyecto realiza pruebas avanzadas de accesibilidad, yendo más allá de *W
 - *Dislexia*
 - *TDAH activo y pasivo*
 - *Asperger*
+- *ELA* (en estudio)
 
 ### ¿Cómo funciona?
 El sistema evalúa el comportamiento del endpoint en los siguientes modos de visualización:
