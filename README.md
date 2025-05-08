@@ -34,6 +34,7 @@
 - [🛠️ Descripción del endpoint](#descripcion-endpoint)
 - [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
 - [🔍 Otras Pruebas No Funcionales](#otras-pruebas-no-funcionales)
+- [⚡ Paralelización de Pruebas](#parallelization)
 - [⏳ Estado actual](#estado-actual)
 ---
 
@@ -199,6 +200,30 @@ Se llevan a cabo pruebas de conformidad con las **Web Content Accessibility Guid
 
 ---
 
+<a name="parallelization"></a>
+## ⚡ Paralelización de pruebas
+
+Se paralelizan pruebas en *Playwright* para optimizar tiempos: algunas corren en el *Docker Python*, mientras otras se ejecutan directamente desde el framework.  
+El paralelismo se documentará mediante *gráfos de Gantt* para facilitar el mantenimiento.
+
+**Candidatas a paralelización:**  
+- Pruebas de traducciones (excepto WCAG)  
+- Navegabilidad mediante teclado  
+- Textos/elements cortados o solapados  
+- Accesibilidad WCAG  
+- Validación general de interfaz
+
+**No paralelizar:**  
+- Pruebas de velocidad de carga  
+- Pruebas de estrés  
+- Pruebas de rendimiento
+
+La estrategia es primero paralelizar lo que no afecta al rendimiento y, una vez finalizado, ejecutar las pruebas de carga y estrés para no distorsionar los resultados.
+
+[🔝 Volver al inicio](#indice)
+
+---
+
 <a id="estado-actual"></a>
 ## ⏳ Estado actual
 
@@ -244,5 +269,3 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 [JWE-logo]: https://img.shields.io/badge/JWE-blue?style=for-the-badge
 
 [WCAG-logo]: https://img.shields.io/badge/WCAG-005a9c?style=for-the-badge&logo=w3c&logoColor=white
-[linkedin-logo]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-link]: https://www.linkedin.com/in/diego-gonzalez-fernandez/
