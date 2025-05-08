@@ -31,7 +31,7 @@
 - [📘 Descripción del Proyecto](#descripcion-del-proyecto)
 - [🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
 - [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
-- [🛠️ Descripción del endpoint](#descripcion-endpoint)
+- [🛠️ Descripción del SUT](#descripcion-endpoint)
 - [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
 - [🔍 Otras Pruebas No Funcionales](#otras-pruebas-no-funcionales)
 - [⚡ Paralelización de Pruebas](#parallelization)
@@ -116,7 +116,7 @@ Finalmente, esta manera de trabajar permitirá que automáticamente puedan visit
 ---
 
 <a id="descripcion-endpoint"></a>
-## 🛠️ Descripción del endpoint
+## 🛠️ Descripción del SUT
 
 El endpoint está diseñado para ser **responsive** y ha sido implementado utilizando **React**, **Vite** y **TypeScript**. En cuanto a las funcionalidades, se cuenta con un **toggle** para alternar entre los diferentes modos de visión: **claro**, **oscuro** y **nocturno/monocromo**. Además, se incorpora un selector de idiomas para mejorar la experiencia de usuarios en diferentes regiones.
 
@@ -158,7 +158,7 @@ El sistema evalúa el comportamiento del endpoint en los siguientes modos de vis
 Cada uno de estos escenarios se analiza de forma independiente para identificar problemas de percepción y comprensión, simulando cómo se vería el endpoint para personas con deficiencias visuales o cognitivas. Si el endpoint no cuenta con los *CSS* necesarios para adaptarse a estos modos, la prueba **fallará** directamente al no haber contemplado este problema de accesibilidad.
 
 Si el endpoint incluye los datos necesarios, se procede a realizar un análisis según tres grados de severidad:
-- **Leveo**
+- **Leve**
 - **Medio**
 - **Severo**
 
@@ -269,3 +269,6 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 [JWE-logo]: https://img.shields.io/badge/JWE-blue?style=for-the-badge
 
 [WCAG-logo]: https://img.shields.io/badge/WCAG-005a9c?style=for-the-badge&logo=w3c&logoColor=white
+
+[linkedin-logo]: https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-link]: https://www.linkedin.com/in/diego-gonzalez-fernandez/
