@@ -23,7 +23,7 @@
 ![lighthouse-logo]
 ---
 
-<a name="indice"></a>
+<a id="indice"></a>
 [![LinkedIn][linkedin-logo]][linkedin-link] (C) Diego González Fernández. 
 
 ## 🧭 Índice
@@ -33,6 +33,7 @@
 - [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
 - [🛠️ Descripción del endpoint](#descripcion-endpoint)
 - [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
+- [🔍 Otras Pruebas No Funcionales](#otras-pruebas-no-funcionales)
 - [⏳ Estado actual](#estado-actual)
 ---
 
@@ -174,6 +175,28 @@ Este enfoque permite detectar problemas reales que impactan a usuarios con neces
 [Volver al inicio](#indice)
 
 ---
+
+<a id="otras-pruebas-no-funcionales"></a>
+## 🔍 Otras Pruebas No Funcionales
+
+### 1. Textos Traducidos
+En esta prueba, se verifica que todos los textos de la interfaz de usuario estén correctamente traducidos. No se comprueba la exactitud de la traducción, sino que se asegura que no haya párrafos no traducidos, a excepción de las citas. **Playwright cambiará automáticamente de idioma y realizará estas pruebas con todos los idiomas disponibles.**
+
+### 2. Navegabilidad Mediante Teclado
+Se prueba que todos los elementos interactivos de la interfaz sean accesibles y navegables utilizando solo el teclado, sin depender de un ratón u otros dispositivos de entrada.
+
+### 3. Textos o Elementos Cortados o No Visibles por Solapamiento
+Esta prueba se enfoca en verificar que no haya textos o elementos visuales que estén cortados o que no sean visibles debido a solapamientos en la interfaz de usuario.
+
+### 4. Velocidad de Carga
+Se verifica que el tiempo de carga de la página sea adecuado, asegurando que la aplicación o sitio web no experimente retrasos significativos que puedan afectar la experiencia del usuario.
+
+### 5. Pruebas WCAG Estándar
+Se llevan a cabo pruebas de conformidad con las **Web Content Accessibility Guidelines (WCAG)** para asegurar que el sitio o aplicación cumpla con los estándares de accesibilidad web, ofreciendo una experiencia adecuada para usuarios con discapacidades. **Estas pruebas no dependen del idioma, ya que las WCAG son estándares universales.**
+
+[Volver al inicio](#inicio)
+
+--
 
 <a id="estado-actual"></a>
 ## ⏳ Estado actual
