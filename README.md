@@ -196,7 +196,7 @@ Se llevan a cabo pruebas de conformidad con las **Web Content Accessibility Guid
 
 [Volver al inicio](#indice)
 
---
+---
 
 <a id="estado-actual"></a>
 ## ⏳ Estado actual
