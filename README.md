@@ -31,6 +31,7 @@
 - [📘 Descripción del Proyecto](#descripcion-del-proyecto)
 - [🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
 - [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
+- [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
 - [⏳ Estado actual](#estado-actual)
 ---
 
@@ -106,6 +107,48 @@ Aunque no sustituye la experiencia real de usuario, establece una base científi
 Es clave recordar que, si bien existen más de 300 millones de personas con daltonismo, el número de personas con presbicia —la mayoría de mayores de 40-45 años— es aún mayor, especialmente considerando la pirámide poblacional invertida.
 
 Finalmente, esta manera de trabajar permitirá que automáticamente puedan visitarse todos los endpoints de un dominio realizando pruebas para cada uno y generando informes tanto por sección como globales, lo que servirá como base para la primera versión de mi algoritmo de accesibilidad personalizado.
+
+[Volver al inicio](#indice)
+
+---
+
+<a id="accesibilidad-beyond-wcag"></a>
+## 🌐 Accesibilidad Beyond-WCAG
+
+Este proyecto realiza pruebas avanzadas de accesibilidad, yendo más allá de *WCAG*: **analiza cómo percibe el usuario real el endpoint** bajo distintas condiciones visuales y cognitivas.
+
+### ¿Qué simulamos?
+- *Presbicia*
+- *Daltonismo*
+- *Cataratas*
+- *Glaucoma*
+- *Dislexia*
+- *TDAH*
+
+### ¿Cómo funciona?
+El sistema evalúa el comportamiento del endpoint en los siguientes modos de visualización:
+- Modo **claro**
+- Modo **oscuro**
+- Modo **monocromo** (alto contraste en móviles)
+
+Cada uno de estos escenarios se analiza de forma independiente para identificar problemas de percepción y comprensión, simulando cómo se vería el endpoint para personas con deficiencias visuales o cognitivas. Si el endpoint no cuenta con los *CSS* necesarios para adaptarse a estos modos, la prueba **fallará** directamente al no haber contemplado este problema de accesibilidad.
+
+Si el endpoint incluye los datos necesarios, se procede a realizar un análisis según tres grados de severidad:
+- **Leveo**
+- **Medio**
+- **Severo**
+
+Cada grado refleja una condición progresiva de deficiencia visual o cognitiva. Los resultados se calculan en un **contenedor Docker especializado** ejecutando lógica en *Python*, donde se evalúa cómo el usuario percibe la información.
+
+### Evaluación de resultados
+Dependiendo de los valores de aceptación configurados para la prueba, el resultado se validará en base al **grado de degradación** que experimenta el usuario al percibir la información. Si el grado de degradación supera el umbral de aceptación, la prueba **fallará**.
+
+### Importante
+⚠️ **Advertencia crítica:**  
+Si el endpoint carece de soporte para los modos claro/oscuro/monocromo, se generará una alarma destacada que indica que los resultados pueden no ser confiables debido a limitaciones en el diseño original.
+
+### Valor diferencial
+Este enfoque permite detectar problemas reales que impactan a usuarios con necesidades específicas, incluso en proyectos que ya cumplen *WCAG*, ofreciendo una evaluación más precisa de la accesibilidad y una experiencia inclusiva para todos los usuarios.
 
 [Volver al inicio](#indice)
 
