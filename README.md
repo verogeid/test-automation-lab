@@ -131,15 +131,25 @@ En cuanto al manejo de usuarios, si el usuario no está **logueado**, sus datos 
 
 Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se realizarán pruebas **funcionales** y **no funcionales**. El objetivo principal es demostrar la validez de las pruebas, especialmente las pruebas **no funcionales**.
 
-<div align=center>
+<div align="center">
   <a href="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88">
-    <img src="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88" width="320"/>
+    <img src="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88" width="320" alt="Modo Oscuro"/>
   </a>
+  <a href="https://github.com/user-attachments/assets/05676427-44a1-49f4-989a-67de9dec45f6">
+    <img src="https://github.com/user-attachments/assets/05676427-44a1-49f4-989a-67de9dec45f6" width="320" alt="Modo Claro"/>
+  </a>
+  <a href="https://github.com/user-attachments/assets/0dbf3234-6932-44b4-83d9-b51c5ae6728b">
+    <img src="https://github.com/user-attachments/assets/0dbf3234-6932-44b4-83d9-b51c5ae6728b" width="115" alt="Versión Mobile"/>
+  </a>
+  
 </div>
+<p align="center">Capturas de pantalla del sistema en diferentes vistas.</p>
 
 [Volver al inicio](#indice)
 
+
 ---
+
 
 <a id="accesibilidad-beyond-wcag"></a>
 ## 🌐 Accesibilidad Beyond-WCAG
