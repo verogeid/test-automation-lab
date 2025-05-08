@@ -131,6 +131,12 @@ En cuanto al manejo de usuarios, si el usuario no está **logueado**, sus datos 
 
 Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se realizarán pruebas **funcionales** y **no funcionales**. El objetivo principal es demostrar la validez de las pruebas, especialmente las pruebas **no funcionales**.
 
+<div align=center>
+  <a href="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88">
+    <img src="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88" width="320"/>
+  </a>
+</div>
+
 [Volver al inicio](#indice)
 
 ---
