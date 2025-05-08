@@ -84,6 +84,21 @@ Todos los resultados se integran automáticamente en herramientas de gestión co
 - **ELA**: ≈ 350,000  
 - **EM (esclerosis múltiple)**: ≈ 2.9 millones  
 
+**Total aproximado:** ≈ 3,693 millones de personas
+
+**Población mundial (2025 estimada):** ≈ 8,100 millones
+
+**Acceso a tecnología:**
+- Smartphones: ≈ 6,400 millones  
+- Ordenadores: ≈ 4,000 millones  
+- Conexión a internet: ≈ 5,500 millones  
+
+**Esto significa que:**
+
+- Casi el 45% de la población mundial vive con alguna de estas condiciones.
+- Más del 75% de la humanidad tiene acceso a smartphones.
+- Aproximadamente la mitad de las personas acceden a ordenadores.
+
 Estas cifras no son solo números: representan **vidas reales** impactadas cada día.  
 Crear herramientas accesibles **no es un lujo, es una responsabilidad.**
 
