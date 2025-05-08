@@ -31,8 +31,8 @@
 - [📘 Descripción del Proyecto](#descripcion-del-proyecto)
 - [🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
 - [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
-- [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
 - [🛠️ Descripción del endpoint](#descripcion-endpoint)
+- [🌐 Accesibilidad Beyond-WCAG](#accesibilidad-beyond-wcag)
 - [⏳ Estado actual](#estado-actual)
 ---
 
@@ -113,6 +113,26 @@ Finalmente, esta manera de trabajar permitirá que automáticamente puedan visit
 
 ---
 
+<a id="descripcion-endpoint"></a>
+## 🛠️ Descripción del endpoint
+
+El endpoint está diseñado para ser **responsive** y ha sido implementado utilizando **React**, **Vite** y **TypeScript**. En cuanto a las funcionalidades, se cuenta con un **toggle** para alternar entre los diferentes modos de visión: **claro**, **oscuro** y **nocturno/monocromo**. Además, se incorpora un selector de idiomas para mejorar la experiencia de usuarios en diferentes regiones.
+
+Este endpoint está dividido en varios componentes, entre los que destacan:
+
+- **Header**: En donde se encuentran los **toggle** y **selectores** para cambiar entre modos de visión e idiomas.
+- **Footer**: Un pie de página básico que permanece constante en toda la navegación.
+- **Calendario**: Para gestionar el control de horas trabajadas, el cual interactúa con los datos almacenados.
+- **Formulario de búsqueda**: Para filtrar datos de manera eficiente desde la base de datos.
+
+En cuanto al manejo de usuarios, si el usuario no está **logueado**, sus datos se almacenarán únicamente durante la sesión activa. Si está **logueado**, podrá elegir entre varios métodos de autenticación (cuenta de Google, GitHub o MSN). Además, se está investigando la posibilidad de incorporar **certificados digitales** o **DNI electrónico** para mayor seguridad y confiabilidad en el proceso.
+
+Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se realizarán pruebas **funcionales** y **no funcionales**. El objetivo principal es demostrar la validez de las pruebas, especialmente las pruebas **no funcionales**.
+
+[Volver al inicio](#indice)
+
+---
+
 <a id="accesibilidad-beyond-wcag"></a>
 ## 🌐 Accesibilidad Beyond-WCAG
 
@@ -150,26 +170,6 @@ Si el endpoint carece de soporte para los modos claro/oscuro/monocromo, se gener
 
 ### Valor diferencial
 Este enfoque permite detectar problemas reales que impactan a usuarios con necesidades específicas, incluso en proyectos que ya cumplen *WCAG*, ofreciendo una evaluación más precisa de la accesibilidad y una experiencia inclusiva para todos los usuarios.
-
-[Volver al inicio](#indice)
-
----
-
-<a id="descripcion-endpoint"></a>
-## 🛠️ Descripción del endpoint
-
-El endpoint está diseñado para ser **responsive** y ha sido implementado utilizando **React**, **Vite** y **TypeScript**. En cuanto a las funcionalidades, se cuenta con un **toggle** para alternar entre los diferentes modos de visión: **claro**, **oscuro** y **nocturno/monocromo**. Además, se incorpora un selector de idiomas para mejorar la experiencia de usuarios en diferentes regiones.
-
-Este endpoint está dividido en varios componentes, entre los que destacan:
-
-- **Header**: En donde se encuentran los **toggle** y **selectores** para cambiar entre modos de visión e idiomas.
-- **Footer**: Un pie de página básico que permanece constante en toda la navegación.
-- **Calendario**: Para gestionar el control de horas trabajadas, el cual interactúa con los datos almacenados.
-- **Formulario de búsqueda**: Para filtrar datos de manera eficiente desde la base de datos.
-
-En cuanto al manejo de usuarios, si el usuario no está **logueado**, sus datos se almacenarán únicamente durante la sesión activa. Si está **logueado**, podrá elegir entre varios métodos de autenticación (cuenta de Google, GitHub o MSN). Además, se está investigando la posibilidad de incorporar **certificados digitales** o **DNI electrónico** para mayor seguridad y confiabilidad en el proceso.
-
-Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se realizarán pruebas **funcionales** y **no funcionales**. El objetivo principal es demostrar la validez de las pruebas, especialmente las pruebas **no funcionales**.
 
 [Volver al inicio](#indice)
 
