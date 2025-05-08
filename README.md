@@ -29,6 +29,7 @@
 ## 🧭 Índice
 
 - [📘 Descripción del Proyecto](#descripcion-del-proyecto)
+- [🌍 Impacto Global de las Deficiencias: Cifras Clave](#impacto-global)
 - [🔐 Flujo Completo de la Lógica de Seguridad y Comunicación entre Contenedores](#flujo-logica-contenedores)
 - [📈 Modularidad y Escalabilidad en Pruebas No Funcionales](#modularidad-escalabilidad)
 - [🛠️ Descripción del SUT](#descripcion-endpoint)
@@ -61,6 +62,30 @@ Este portfolio está en construcción activa y representa un entorno realista de
   - *ELA* y *EM*
 
 Todos los resultados se integran automáticamente en herramientas de gestión como **Jira**, **TestRail** o **Micro Focus ALM** (simulada), adaptándose según entorno mediante una variable `env`.
+
+[Volver al inicio](#indice)
+
+---
+
+<a id="impacto-global"></a>
+## 🌍 Impacto Global de las Deficiencias: Cifras Clave
+
+### 👁️‍🗨️ Discapacidad Visual (casos del portfolio)
+- **Protanopía / Deuteranopía (ceguera rojo/verde)**: ≈ 300 millones  
+- **Tritanopía (ceguera al azul)**: ≈ 30 millones  
+- **Presbicia**: ≈ 1.800 millones  
+- **Glaucoma**: ≈ 76 millones  
+- **Cataratas**: ≈ 94 millones  
+
+### 🧠 Condiciones Cognitivas y Neurológicas (casos del portfolio)
+- **Dislexia**: ≈ 700 millones  
+- **TDAH (activo/pasivo)**: ≈ 640 millones  
+- **Asperger (espectro autista)**: ≈ 50 millones  
+- **ELA**: ≈ 350,000  
+- **EM (esclerosis múltiple)**: ≈ 2.9 millones  
+
+Estas cifras no son solo números: representan **vidas reales** impactadas cada día.  
+Crear herramientas accesibles **no es un lujo, es una responsabilidad.**
 
 [Volver al inicio](#indice)
 
