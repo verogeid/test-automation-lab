@@ -44,7 +44,7 @@
 
 Este portfolio está en construcción activa y representa un entorno realista de trabajo como **QA Automation Engineer**. Incluye:
 
-- Un *endpoint funcional* desarrollado con **React + Vite**, desplegado automáticamente a entornos QA y Producción mediante workflow.
+- Un *endpoint funcional* desarrollado con **React + Vite** (*en construcción*), desplegado automáticamente a entornos QA y Producción mediante workflow.
 - Ejecución de pruebas Funcionales en **Cypress** (entorno QA) y No Funcionales en **Playwright** (entorno Producción), ambas usando **TypeScript**.
 - *Módulo de selectores* en TypeScript compartido entre Cypress y Playwright para optimizar el mantenimiento de tests automatizados.
 - Lógica avanzada desarrollada en **Python**, encapsulada en un contenedor **Docker** protegido por *JWE rotativos* y validación de IP.
@@ -159,7 +159,7 @@ Finalmente, esta manera de trabajar permitirá que automáticamente puedan visit
 <a id="descripcion-endpoint"></a>
 ## 🛠️ Descripción del SUT
 
-El endpoint está diseñado para ser **responsive** y ha sido implementado utilizando **React**, **Vite** y **TypeScript**. En cuanto a las funcionalidades, se cuenta con un **toggle** para alternar entre los diferentes modos de visión: **claro**, **oscuro** y **nocturno/monocromo**. Además, se incorpora un selector de idiomas para mejorar la experiencia de usuarios en diferentes regiones.
+El endpoint está diseñado para ser **responsive** y esta siendo implementado utilizando **React**, **Vite** y **TypeScript** (*en construcción*). En cuanto a las funcionalidades, se cuenta con un **toggle** para alternar entre los diferentes modos de visión: **claro**, **oscuro** y **nocturno/monocromo**. Además, se incorpora un selector de idiomas para mejorar la experiencia de usuarios en diferentes regiones.
 
 Este endpoint está dividido en varios componentes, entre los que destacan:
 
@@ -184,7 +184,7 @@ Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se r
   </a>
   
 </div>
-<p align="center">Capturas de pantalla del sistema en diferentes vistas.</p>
+<p align="center">Capturas de pantalla del sistema en diferentes vistas. *EN CONSTRUCCIÓN*</p>
 
 [Volver al inicio](#indice)
 
