@@ -293,6 +293,10 @@ Este repositorio forma parte de mi portfolio técnico y está en fase de constru
 
 [Volver al inicio](#indice)
 
+---
+
+© 2025 – Este es un experimento de código abierto y un trabajo en curso.
+
 <!-- Workspace -->
 [En-Construccion]: https://img.shields.io/badge/status-en%20construcci%C3%B3n-orange
 [vscode-logo]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
