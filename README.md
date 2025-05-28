@@ -172,6 +172,14 @@ En cuanto al manejo de usuarios, si el usuario no está **logueado**, sus datos 
 
 Este endpoint está destinado a ser un **endpoint de pruebas** sobre el que se realizarán pruebas **funcionales** y **no funcionales**. El objetivo principal es demostrar la validez de las pruebas, especialmente las pruebas **no funcionales**.
 
+Actualmente se está desarrollando un frontend de pruebas en React + Vite con enfoque mobile first y criterios estrictos de accesibilidad real:
+
+- Diseño zoom responsive: el contenido se adapta sin necesidad de scroll ni barras flotantes, reubicando elementos según el nivel de zoom y evitando la sobrecarga cognitiva.
+- Interfaz sin scroll vertical ni local, mediante capas superpuestas dinámicas para personas con dificultades de percepción espacial.
+- Simulación de usuarios con discapacidades cognitivas y motoras desde el diseño mismo.
+
+Este diseño no busca solo cumplir con los estándares, sino generar experiencias accesibles, prácticas y evaluables por herramientas automatizadas y humanas.
+
 <div align="center">
   <a href="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88">
     <img src="https://github.com/user-attachments/assets/3ef0b052-ee14-4bb6-bcf7-1458905ebe88" width="320" alt="Modo Oscuro"/>
