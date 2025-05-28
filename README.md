@@ -289,7 +289,15 @@ La estrategia es primero paralelizar lo que no afecta al rendimiento y, una vez 
 
 ![Status][En-Construccion]
 
-Este repositorio forma parte de mi portfolio técnico y está en fase de construcción. Ciertas partes, como la lógica visual en Python, están protegidas para evitar usos indebidos.
+En pausa temporal mientras se consolidan conocimientos clave en:
+
+- Playwright avanzado
+- Desarrollo de APIs (Python, FastAPI)
+- Docker y Kubernetes
+- JWE tokens rotativos
+- React y diseño UX accesible en Vite
+
+El diseño, pruebas y simulaciones están trazados en un roadmap técnico como parte de una visión mayor: construir una plataforma QA accesible, escalable y pedagógica.
 
 [Volver al inicio](#indice)
 
